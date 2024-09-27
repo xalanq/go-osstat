@@ -1,5 +1,5 @@
-//go:build !windows && cgo
-// +build !windows,cgo
+//go:build !windows && !android && cgo
+// +build !windows,!android,cgo
 
 package loadavg
 

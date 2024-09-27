@@ -1,5 +1,5 @@
-//go:build linux && !android && !cgo
-// +build linux,!android,!cgo
+//go:build android
+// +build android
 
 package loadavg
 
